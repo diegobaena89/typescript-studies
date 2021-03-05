@@ -50,3 +50,9 @@ console.log(multiply(2, 3));
 var calc;
 calc = multiply;
 console.log(calc(3, 4));
+// Objetos
+var usuario = {
+    nome: 'João',
+    idade: 27
+};
+console.log(usuario);
