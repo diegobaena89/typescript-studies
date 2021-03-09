@@ -23,6 +23,7 @@ var address = ['av Principal', 99];
 console.log(address);
 // enum - estrutura que define vcalores pre definidos
 var Cor;
+// enum - estrutura que define vcalores pre definidos
 (function (Cor) {
     Cor[Cor["Gray"] = 0] = "Gray";
     Cor[Cor["Green"] = 1] = "Green";
@@ -56,3 +57,4 @@ var usuario = {
     idade: 27
 };
 console.log(usuario);
+//# sourceMappingURL=tipos.js.map
