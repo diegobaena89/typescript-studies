@@ -1,12 +1,12 @@
 "use strict";
-var canal = 'Gaveta';
-var inscritos = 610234;
+let canal = 'Gaveta';
+let inscritos = 610234;
 //canal = inscritos
-console.log("Canal = " + canal);
-var nome = 'Pedro';
-console.log("Nome = " + nome);
+console.log(`Canal = ${canal}`);
+let nome = 'Pedro';
+console.log(`Nome = ${nome}`);
 function saudar(isManha) {
-    var saudacao;
+    let saudacao;
     if (isManha) {
         saudacao = 'Bom dia';
     }

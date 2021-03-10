@@ -85,13 +85,13 @@ console.log(motor)
 console.log(ano)
 */
 // DESTRUCTURING ( OBJETO )
-var item = {
+const item = {
     nome: 'SSD 480GB',
     preco: 200
 };
 //const nomeItem = item.nome
 //const preco = item.preco
-var n = item.nome, preco = item.preco;
+const { nome: n, preco } = item;
 console.log(n);
 console.log(preco);
 //# sourceMappingURL=ecmascript.js.map

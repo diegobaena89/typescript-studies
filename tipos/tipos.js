@@ -1,25 +1,25 @@
 "use strict";
 // string
-var name = 'Diego';
+let name = 'Diego';
 console.log(name);
 //nome = 28;
 //numbers
-var age = 31;
+let age = 31;
 console.log(age);
 //boolean
-var isTrueOrFalse = true;
+let isTrueOrFalse = true;
 console.log(isTrueOrFalse);
 // ====== Explícito
-var ageAgain;
+let ageAgain;
 ageAgain = 41;
 console.log(age);
 // ==== Array
-var hobbies = ['Cozinhar', 'Esporte'];
+let hobbies = ['Cozinhar', 'Esporte'];
 console.log(hobbies);
 hobbies = [100, 50];
 console.log(hobbies);
 // tupla - array de quantidades pre-definida de tipos
-var address = ['av Principal', 99];
+let address = ['av Principal', 99];
 console.log(address);
 // enum - estrutura que define vcalores pre definidos
 var Cor;
@@ -32,9 +32,9 @@ var Cor;
     Cor[Cor["Yellow"] = 4] = "Yellow";
     Cor[Cor["Red"] = 5] = "Red";
 })(Cor || (Cor = {}));
-var myColor = Cor.Green;
+let myColor = Cor.Green;
 console.log(myColor);
-var msg = 'Heyo';
+let msg = 'Heyo';
 // Funções
 function returnMsg() {
     return msg;
@@ -48,11 +48,11 @@ function multiply(numA, numB) {
     return numA * numB;
 }
 console.log(multiply(2, 3));
-var calc;
+let calc;
 calc = multiply;
 console.log(calc(3, 4));
 // Objetos
-var usuario = {
+let usuario = {
     nome: 'João',
     idade: 27
 };
