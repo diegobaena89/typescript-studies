@@ -37,3 +37,5 @@ console.log(msgToLowerCase);
 var winterMessage = 'o inverno está chegando';
 var msgToUpperCase = winterMessage.toUpperCase();
 console.log(msgToUpperCase);
+var indexOfMsg = winterMessage.indexOf('v');
+console.log(indexOfMsg);
